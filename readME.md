@@ -7,3 +7,5 @@ this make comp remember the url with the name you give
 then
 3. `git remote add <name>`
 4. to pull ``
+5. to make branch in remote `git push <name> <branch name>`
+6. to push `git push -u <name> <name of branch you want to push to>`
