@@ -1,0 +1,133 @@
+body{
+  background-color: #fff;
+  color: #666;
+  font-family: 'Montserrat', sans-serif;
+}
+/*menu bar*/
+.menu{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 25px;
+  position: fixed;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 99999;
+}
+  .menu li{
+    margin: 10px;
+    display: inline-block;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+/*======================
+top picture and description
+======================*/
+.top-pic{
+  height: 400px;
+}
+
+.top-pic h2{
+  position: relative;
+  top: 150px;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+.top-pic p{
+  position: relative;
+  top: 180px;
+  font-size: 20px;
+}
+
+/*about*/
+.about-pic{
+  background:
+    linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)),
+    url(../img/tokyo-city.jpg);
+  background-size: cover;
+}
+
+/*work*/
+.work-pic{
+  background:
+    linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)),
+    url(../img/coding.jpg);
+  background-size: cover;
+}
+
+/*contact*/
+.contact-pic{
+  background:
+    linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)),
+    url(../img/contact.jpg);
+  background-size: cover;
+}
+
+/*======================
+container
+======================*/
+.container{
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container p{
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.container ul{
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.container img{
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.assignment{
+  width: 260px;
+  float: left;
+}
+.section{
+  margin-bottom: 40px;
+}
+
+.section:after{
+  clear: both;
+  display: table;
+	content: " ";
+}
+
+.section h3{
+  font-size: 20px;
+}
+.assignment img{
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 0px;
+}
+/*======================
+footer
+======================*/
+
+footer{
+  background-color: #000;
+  height: 100px;
+}
+
+/*main*/
+.white{
+  color: #fff;
+}
+
+.center{
+  text-align: center;
+  margin: 0px auto;
+}

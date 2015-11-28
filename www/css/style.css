@@ -1,0 +1,145 @@
+body{
+  background-color: #000;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-size: 50px;
+  position: relative;
+  top: 150px;
+  width: 600px;
+  border-bottom: 2px solid #fff;
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.menu{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 25px;
+  position: fixed;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 99999;
+}
+
+  .menu li{
+    margin: 10px;
+    display: inline-block;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+
+  .home-bg p{
+    position: relative;
+    top: 170px;
+    line-height: 1.5;
+  }
+/* this is just for class*/
+.menu-button{
+  width: 100px;
+  font-size: 25px;
+  padding: 5px;
+
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid #fff;
+}
+
+.home-bg{
+  background:
+    linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)),
+    url(../img/bg.jpg);
+  height: 800px;
+  background-position: bottom;
+}
+
+.white{
+  color: #fff;
+}
+
+.center{
+  text-align: center;
+  margin: 0px auto;
+}
+
+.contents{
+  position: relative;
+  top: 150px;
+}
+
+.ghost-button a{
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid #fff;
+}
+
+.game-button a{
+  padding: 5px;
+  width: 100px;
+  font-size: 25px;
+  position: relative;
+  top: 200px;
+  text-transform: uppercase;
+}
+
+.game-button :hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.home-button a{
+  margin-top: 50px;
+  font-size: 30px;
+  width:150px;
+  padding: .3em;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  position: relative;
+  top: 150px;
+}
+  .home-button :hover{
+    background-color: #fff;
+    color: #000;
+  }
+
+.home-pic img{
+  max-width: 300px;
+  margin-bottom: 100px;
+  background-color: #eee;
+  position: relative;
+  top: 200px;
+  border-radius: 200px;
+}
+
+#result{
+  width: 150px;
+  position: relative;
+  top: 220px;
+}
+  #result p{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #result li{
+    margin-bottom: 5px;
+  }
