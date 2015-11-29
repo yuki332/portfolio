@@ -113,6 +113,45 @@ container
   height: auto;
   margin-bottom: 0px;
 }
+
+.desc{
+  display: none;
+}
+.desc:hover{
+  display: block;
+}
+
+a.tooltip {
+  outline:none;
+  text-decoration: none;
+  color: #666;
+}
+a.tooltip strong {
+  line-height:30px;
+}
+a.tooltip:hover {
+  text-decoration:none;
+}
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-200px; margin-left:0px;
+    width:300px; line-height:1.5;
+}
+a.tooltip:hover span{
+    display:inline;
+    position:absolute;
+    color:#666;
+    border:1px solid #666;
+    background:#fff;}
+.callout {
+  z-index:20;
+  position:absolute;
+  top:30px;
+  border:0;
+  left:-12px;
+}
+
+
 /*======================
 footer
 ======================*/

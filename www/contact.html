@@ -22,9 +22,22 @@
       <h2 class="white center">contact</h2>
     </section>
     <section class="container">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <form id="contact-form" action="javascript:alert('success!');">
+        <p id="formstatus">
+          <div class="formstatuserror">Please enter your name.<br>
+            Please enter an e-mail address.<br>Please enter your message. <br>
+          </div>
+        </p>
+				<p>Hello Yuki,</p>
+				<label for="email">Your Message : </label>
+				<textarea name="message" value="Your Message" id="message"></textarea>
+				<p>Best,</p>
+				<label for="name">Name: </label>
+				<input type="text" name="name" value="" id="name">
+				<label for="email">Email: </label>
+				<input type="text" name="email" value="" id="email">
+				<input type="submit" name="submit" value="OK I want to send it now, thanks!">
+			</form>
     </section>
     <footer>
     </footer>

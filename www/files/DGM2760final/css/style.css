@@ -1,0 +1,142 @@
+body{
+  background-color: #000;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-size: 50px;
+  position: relative;
+  top: 150px;
+  width: 600px;
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.nav-bar{
+  width: 1230px;
+  height: 50px;
+  position: fixed;
+  padding: 25px;
+}
+
+.menu{
+  font-size: 25px;
+  width: 285px;
+  position: fixed;
+  text-transform: uppercase;
+  background-color: rgb(96, 148, 153);
+}
+
+  .menu li{
+    margin-bottom: 10px;
+  }
+
+.menu-button button{
+  width: 80px;
+  font-size: 25px;
+}
+
+/* this is just for class*/
+.menu-button{
+  width: 100px;
+  font-size: 25px;
+  padding: 5px;
+
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid #fff;
+}
+
+.home-bg{
+  background:
+    linear-gradient(rgba(255, 255, 255, .3), rgba(0, 0, 0, .6)),
+    url(../pics/bg.jpg);
+  height: 800px;
+  background-position: bottom;
+}
+
+.white{
+  color: #fff;
+}
+
+.center{
+  text-align: center;
+  margin: 0px auto;
+}
+
+.contents{
+  position: relative;
+  top: 150px;
+}
+
+.ghost-button a{
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid #fff;
+}
+
+.game-button a{
+  padding: 5px;
+  width: 100px;
+  font-size: 25px;
+  position: relative;
+  top: 200px;
+  text-transform: uppercase;
+}
+
+.game-button :hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.home-button a{
+  margin-top: 50px;
+  font-size: 30px;
+  width:150px;
+  padding: .3em;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  position: relative;
+  top: 150px;
+}
+  .home-button :hover{
+    background-color: #fff;
+    color: #000;
+  }
+
+.home-pic{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 100px;
+  background-color: #eee;
+  position: relative;
+  top: 200px;
+}
+
+#result{
+  width: 150px;
+  position: relative;
+  top: 220px;
+}
+  #result p{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #result li{
+    margin-bottom: 5px;
+  }
