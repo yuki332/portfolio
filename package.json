@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki332/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuki332/portfolio/issues"
+  },
+  "homepage": "https://github.com/yuki332/portfolio#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.4.1",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "vue": "^2.4.1"
+  }
+}
