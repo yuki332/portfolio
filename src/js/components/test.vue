@@ -1,16 +1,21 @@
 <template>
 	<div class="this">
-		{{message}}
+		<slot></slot>
 	</div>
 </template>
 <script>
 	export default{
 		data() {
 			return {
-				message: 'ho'
 			}
 		}
 	}
 </script>
 <style>
+	.this{
+		color: red;
+		margin-bottom: 10px;
+		background: #ccc;
+		padding: 2rem;
+	}
 </style>
